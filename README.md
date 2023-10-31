@@ -1,5 +1,5 @@
 # Quizlet-set-scraper
-Quizlet-set-scraper is a command line program designed to pull a quizlet set(cards) from a url in one file and export the quizlet set to another file.
+Quizlet-set-scraper is a command line program designed to pull a quizlet set from a url in one file and export the quizlet set to another file.
 
 This program currently supports URLs which point directly to a study set - folders, classes, and premium content are not currently supported.
 
