@@ -8,7 +8,7 @@ Copy the url of the set into url.txt, save the file then run:
 ```python main.py```
 
 # Dependencies
-- Python 3.12+ (older versions may work, 3.12.0 was used for development), which can be downloaded [here.](https://www.python.org/downloads/) It's recommended to check "Add Python 3.x to PATH" during installation.
-- Selenium, which can be installed by running: ```pip install selenium``` (version 4.14.0 was used during development)
-- Firefox, which can be downloaded [here.](https://www.mozilla.org/en-US/firefox/new/)
-- Geckodriver, which is distributed with Quizlet-set-scraper (version 0.33.0 was used during development). In the case that an updated version is required, Geckodriver can be downloaded [here.](https://github.com/mozilla/geckodriver/releases) Please ensure geckodriver.exe is located in the same directory as main.py
+- Python 3.12+ (older versions may work, v3.12.0 was used), which can be downloaded [here.](https://www.python.org/downloads/) It's recommended to check "Add Python 3.x to PATH" during installation.
+- Selenium, which can be installed by running: ```pip install selenium``` (v4.14.0 was used)
+- Firefox (v199.0 was used), can be downloaded [here.](https://www.mozilla.org/en-US/firefox/new/)
+- Geckodriver, which is distributed with Quizlet-set-scraper (v0.33.0 was used). In the case that an updated version is required, Geckodriver can be downloaded [here.](https://github.com/mozilla/geckodriver/releases) Please ensure geckodriver.exe is located in the same directory as main.py
