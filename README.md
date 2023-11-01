@@ -10,5 +10,6 @@ Copy the url of the set into url.txt, save the file then run:
 # Dependencies
 - Python 3.12+ (older versions may work, v3.12.0 was used), which can be downloaded [here.](https://www.python.org/downloads/) It's recommended to check "Add Python 3.x to PATH" during installation.
 - Selenium, which can be installed by running: ```pip install selenium``` (v4.14.0 was used)
+- BeautifulSoup4, which can be installed by running: ```pip install beautifulsoup4``` (v4.12.2 was used)
 - Firefox (v199.0 was used), can be downloaded [here.](https://www.mozilla.org/en-US/firefox/new/)
 - Geckodriver, which is distributed with Quizlet-set-scraper (v0.33.0 was used). In the case that an updated version is required, Geckodriver can be downloaded [here.](https://github.com/mozilla/geckodriver/releases) Please ensure geckodriver.exe is located in the same directory as main.py
