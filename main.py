@@ -1,3 +1,7 @@
+# MIT License
+# Copyright (c) 2023 Luke Hendrickson
+# See the LICENSE.txt file for the full license text.
+
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
