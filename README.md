@@ -6,6 +6,7 @@ This program currently supports URLs which point directly to a study set - folde
 # Usage
 Copy the url of the set into url.txt, save the file then run:
 ```python main.py```
+
 You can edit the file name it exports to, the url file name it pulls from, and the separation character between the question and answer near the top of the code.
 
 # Dependencies
