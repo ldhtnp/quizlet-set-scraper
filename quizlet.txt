@@ -1,0 +1,2 @@
+default formatting:
+question | answer
