@@ -15,8 +15,8 @@ You can edit the file name it exports to, the url file name it pulls from, and t
 - BeautifulSoup4, which can be installed by running: ```pip install beautifulsoup4``` (v4.12.2 was used)
 - Firefox (v199.0 was used), can be downloaded [here.](https://www.mozilla.org/en-US/firefox/new/)
 - Geckodriver, which is distributed with Quizlet-set-scraper (v0.33.0 was used). In the case that an updated version is required, Geckodriver can be downloaded [here.](https://github.com/mozilla/geckodriver/releases) Please ensure geckodriver.exe is located in the same directory as main.py
-
   
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
 main.py also contain a brief license notice.
