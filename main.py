@@ -13,7 +13,9 @@ class Cards(TypedDict):
 cards_in_set: list[Cards] = []
 url_file_name: str = "url.txt"
 export_file_name: str = "quizlet.txt"
-separation_character: str = "\t"
+separation_character: str = (
+    " | "  # Used in exported file to separate the question and answer
+)
 
 
 def export_set() -> None:
@@ -26,10 +28,7 @@ def export_set() -> None:
         with open(export_file_name, "w", encoding="utf-8") as file:
             for card in cards_in_set:
                 file.write(
-                    card["question"].strip()
-                    + separation_character
-                    + card["answer"].strip()
-                    + "\n"
+                    card["question"] + separation_character + card["answer"] + "\n"
                 )
         print(f"\nSuccessfully exported to: {export_file_name}")
     except Exception as e:
@@ -38,15 +37,14 @@ def export_set() -> None:
 
 def format_content(elements: ResultSet[Tag]) -> None:
     """
-    Purpose:    Properly format the card content removing special characters and whitespace
+    Purpose:    Properly format the card content, removes leading/trailing whitespace
     Modifies:   Elements in 'cards_in_set'
     Returns:    None
     """
-    print('Formatting content...')
+    print("Formatting content...")
     try:
         for element in elements:
             element.string = element.text.strip()
-            #print(element.string)
     except Exception as e:
         print("Exception occurred when formatting content:", e)
 
@@ -91,7 +89,7 @@ def load_html(driver) -> str:
 
 def main() -> None:
     """
-    Purpose:    w
+    Purpose:    Orchestrates web scraping, data export, and exception handling for a Quizlet URL
     Modifies:   Nothing
     Returns:    None
     """
