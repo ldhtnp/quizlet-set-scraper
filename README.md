@@ -17,7 +17,7 @@ You can edit the file name it exports to, the url file name it pulls from, and t
 - Geckodriver, which is distributed with Quizlet-set-scraper (v0.33.0 was used). In the case that an updated version is required, Geckodriver can be downloaded [here.](https://github.com/mozilla/geckodriver/releases) Please ensure geckodriver.exe is located in the same directory as main.py
 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
-The source code files also contain a brief license notice.
+main.py also contain a brief license notice.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
