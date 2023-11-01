@@ -20,4 +20,4 @@ You can edit the file name it exports to, the url file name it pulls from, and t
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 This project is licensed under the MIT License. See the [LICENSE.txt](LICENSE.txt) file for details.
-main.py also contain a brief license notice.
+main.py also contains a brief license notice.
